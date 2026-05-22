@@ -1811,10 +1811,10 @@ iframe { max-width: 100%; }
   </button>
   <ul class="nav-links" id="navLinks">
   <ul class="nav-links" id="navLinks">
+    <li><a href="#services" onclick="closeMenu()">Services</a></li>
     <li><a href="#pricing" onclick="closeMenu()">Pricing</a></li>
     <li><a href="#gallery" onclick="closeMenu()">Portfolio</a></li>
     <li><a href="#specialties" onclick="closeMenu()">Specialties</a></li>
-    <li><a href="#services" onclick="closeMenu()">Services</a></li>
     <li><a href="#about" onclick="closeMenu()">About</a></li>
     <li><a href="#community" onclick="closeMenu()">Recipes</a></li>
     <li><a href="#reviews" onclick="closeMenu()">Reviews</a></li>
@@ -1865,6 +1865,55 @@ iframe { max-width: 100%; }
   <div class="strip-item"><span class="strip-dot">✦</span> <svg class="brand-icon brand-icon-sm" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="YouTube"><path fill="#FF0000" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8z"/><path fill="#fff" d="M9.7 15.5V8.5l6.2 3.5-6.2 3.5z"/></svg> YouTube: @williegoodfood
 </div>
 
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-header reveal">
+    <div>
+      <p class="section-eyebrow" style="color:var(--warm-brown)">What I Offer</p>
+      <h2 class="services-heading">Services <em>tailored<br>for you</em></h2>
+    </div>
+    <p class="services-sub">Every engagement begins with a free consultation — because great food starts with understanding you, your guests, and your vision.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f37d.svg" class="emoji-img emoji-lg" alt="Personal Chef"/></span>
+      <div class="service-name">Personal Chef</div>
+      <p class="service-desc">In-home cooking for individuals, couples, and families. Weekly meal prep, special occasions, or ongoing culinary support — restaurant-quality food in your home.</p>
+      <div class="service-free">✓ Free Consultation Included</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f942.svg" class="emoji-img emoji-lg" alt="Catering"/></span>
+      <div class="service-name">Personalized Catering</div>
+      <p class="service-desc">Custom menus for your event — from intimate dinner parties to large corporate gatherings. Every detail thoughtfully prepared and beautifully presented.</p>
+      <div class="service-free">✓ Free Consultation Included</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f389.svg" class="emoji-img emoji-lg" alt="Events"/></span>
+      <div class="service-name">Event Food & Planning</div>
+      <p class="service-desc">Full-service event food planning from concept to execution. Menu curation, logistics, staffing coordination, and on-site culinary management for seamless events.</p>
+      <div class="service-free">✓ Free Consultation Included</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91d.svg" class="emoji-img emoji-lg" alt="Consulting"/></span>
+      <div class="service-name">Hospitality Consulting</div>
+      <p class="service-desc">Strategic consulting for food businesses drawing on 16 years in restaurant management and tech. Menu development, kitchen workflow, and staff training.</p>
+      <div class="service-free">✓ Free Consultation Included</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4cb.svg" class="emoji-img emoji-lg" alt="Menu Design"/></span>
+      <div class="service-name">Menu Design</div>
+      <p class="service-desc">Creative menu development and design for restaurants, pop-ups, and special events. Balanced, seasonal menus that reflect your brand, dietary needs, and culinary vision.</p>
+      <div class="service-free">✓ Free Consultation Included</div>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6e1.svg" class="emoji-img emoji-lg" alt="Allergen"/></span>
+      <div class="service-name">Allergen & Dietary Planning</div>
+      <p class="service-desc">Specialized menus for celiac, gluten-free, vegan, and allergy-restricted guests. Safe, delicious, and never an afterthought — backed by lived expertise since 2001.</p>
+      <div class="service-free">✓ Free Consultation Included</div>
+    </div>
+  </div>
+</section>
+
 <!-- PRICING -->
 <section class="pricing" id="pricing">
   <div class="pricing-header reveal">
@@ -1875,7 +1924,7 @@ iframe { max-width: 100%; }
   <div class="pricing-grid">
     <div class="pricing-card reveal">
       <div class="pricing-tier">Meal Planning</div>
-      <div class="pricing-price">$15<span class="pricing-per">/meal</span></div>
+      <div class="pricing-price">$15<span class="pricing-per"> per individual meal</span></div>
       <div class="pricing-freq">Weekly meal prep & planning</div>
       <ul class="pricing-list">
         <li>In-home meal preparation</li>
@@ -2109,55 +2158,6 @@ iframe { max-width: 100%; }
     <div>
       <div class="diet-label" style="font-size:0.82rem;font-weight:600;letter-spacing:0.16em;">🌍 BILINGUAL EN · ES</div>
       <div class="diet-desc">Fluent in English and Spanish — serving diverse communities with warmth and full communication.</div>
-    </div>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section class="services" id="services">
-  <div class="services-header reveal">
-    <div>
-      <p class="section-eyebrow" style="color:var(--warm-brown)">What I Offer</p>
-      <h2 class="services-heading">Services <em>tailored<br>for you</em></h2>
-    </div>
-    <p class="services-sub">Every engagement begins with a free consultation — because great food starts with understanding you, your guests, and your vision.</p>
-  </div>
-  <div class="services-grid">
-    <div class="service-card reveal">
-      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f37d.svg" class="emoji-img emoji-lg" alt="Personal Chef"/></span>
-      <div class="service-name">Personal Chef</div>
-      <p class="service-desc">In-home cooking for individuals, couples, and families. Weekly meal prep, special occasions, or ongoing culinary support — restaurant-quality food in your home.</p>
-      <div class="service-free">✓ Free Consultation Included</div>
-    </div>
-    <div class="service-card reveal">
-      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f942.svg" class="emoji-img emoji-lg" alt="Catering"/></span>
-      <div class="service-name">Personalized Catering</div>
-      <p class="service-desc">Custom menus for your event — from intimate dinner parties to large corporate gatherings. Every detail thoughtfully prepared and beautifully presented.</p>
-      <div class="service-free">✓ Free Consultation Included</div>
-    </div>
-    <div class="service-card reveal">
-      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f389.svg" class="emoji-img emoji-lg" alt="Events"/></span>
-      <div class="service-name">Event Food & Planning</div>
-      <p class="service-desc">Full-service event food planning from concept to execution. Menu curation, logistics, staffing coordination, and on-site culinary management for seamless events.</p>
-      <div class="service-free">✓ Free Consultation Included</div>
-    </div>
-    <div class="service-card reveal">
-      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91d.svg" class="emoji-img emoji-lg" alt="Consulting"/></span>
-      <div class="service-name">Hospitality Consulting</div>
-      <p class="service-desc">Strategic consulting for food businesses drawing on 16 years in restaurant management and tech. Menu development, kitchen workflow, and staff training.</p>
-      <div class="service-free">✓ Free Consultation Included</div>
-    </div>
-    <div class="service-card reveal">
-      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4cb.svg" class="emoji-img emoji-lg" alt="Menu Design"/></span>
-      <div class="service-name">Menu Design</div>
-      <p class="service-desc">Creative menu development and design for restaurants, pop-ups, and special events. Balanced, seasonal menus that reflect your brand, dietary needs, and culinary vision.</p>
-      <div class="service-free">✓ Free Consultation Included</div>
-    </div>
-    <div class="service-card reveal">
-      <span class="service-icon"><img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6e1.svg" class="emoji-img emoji-lg" alt="Allergen"/></span>
-      <div class="service-name">Allergen & Dietary Planning</div>
-      <p class="service-desc">Specialized menus for celiac, gluten-free, vegan, and allergy-restricted guests. Safe, delicious, and never an afterthought — backed by lived expertise since 2001.</p>
-      <div class="service-free">✓ Free Consultation Included</div>
     </div>
   </div>
 </section>
